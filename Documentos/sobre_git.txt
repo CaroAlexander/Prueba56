@@ -1,0 +1,17 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/CaroAlexander/Prueba56.git
+git status
+git push -u origin main
+git add .
+git commit -m "Se agrega clase principal"
+git push
+
+git add .
+git commit -m "Mensaje"
+git push
+
+git config --global user.email "yatobarc@correo.udistrital.edu.co"
+git config --global user.name "CaroAlexander"
